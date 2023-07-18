@@ -1,0 +1,26 @@
+{
+  "name": "Topic Downloader",
+  "description": "Adds a button next to the RSS feed icon to download the topic.",
+  "info": [
+    {
+      "type": "notice",
+      "text": "The topic downloader will only download the first page of the selected topic.",
+      "id": "downloaderFirstPage"
+    }
+  ],
+  "userscripts": [
+    {
+      "url": "userscript.js",
+      "matches": ["https://scratch.mit.edu//discuss/topic"]
+    }
+  ],
+  "credits": [
+    {
+      "name": "i_eat_coffee",
+      "link": "https://scratch.mit.edu/users/i_eat_coffee/"
+    },
+  ],
+  "tags": ["community","forums"],
+  "enabledByDefault": false,
+  "versionAdded": "1.34.0"
+}
